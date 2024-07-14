@@ -12,14 +12,46 @@
     color: #FD6E0A;
 }
 
+.dark-2{
+    color: rgba(71, 71, 71, 1.00);
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px ;
+    border-radius: 5px;
+    border: none;
+}
+
 /* nav styles  */
 
 nav{
-  display: flex;  
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin: 50px 200px;
+
 }
 .nav-title{
     font-size: 45px;
     font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    margin-right: 50px; 
+
+}
+nav li a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
 }
 
 
